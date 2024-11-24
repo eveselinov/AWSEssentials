@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
+  <diagram name="Page-1" id="xJR6_TvRkgeV5L0pbxzS">
+    <mxGraphModel dx="1873" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-1" value="EC2 Web Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="-sDL5QotIKEPO9uUVBx4-2" target="-sDL5QotIKEPO9uUVBx4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-2" value="S3 File storage" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-3" value="Lambda 1 (Proccess Files)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-sDL5QotIKEPO9uUVBx4-4" target="-sDL5QotIKEPO9uUVBx4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-4" value="DynamoDB (Metadata)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sDL5QotIKEPO9uUVBx4-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-5" value="Lambda2 (Send Emails)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="690" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-6" value="SES/SNS Notifications" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="725" width="320" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-sDL5QotIKEPO9uUVBx4-1" target="-sDL5QotIKEPO9uUVBx4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sDL5QotIKEPO9uUVBx4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.479;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-sDL5QotIKEPO9uUVBx4-3" target="-sDL5QotIKEPO9uUVBx4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
